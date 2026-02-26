@@ -1,0 +1,13 @@
+CREATE DATABASE student_db;
+USE student_db;
+
+CREATE TABLE students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    department VARCHAR(100),
+    total_classes INT DEFAULT 0,
+    present_count INT DEFAULT 0,
+    subject1 INT DEFAULT 0,
+    subject2 INT DEFAULT 0,
+    subject3 INT DEFAULT 0
+);
